@@ -15,6 +15,11 @@ arrRess.push(fn(arr[i]));
 var calcage = function(el){
     return 2018 - el;
 }
+var isFullage = function(el){
+    return el <= 18;
+};
 
+var fullAge = calcArray ( years, isFullage );
 var ages = calcArray(years, calcage);
 console.log(ages);
+console.log(fullAge);
