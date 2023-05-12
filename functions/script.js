@@ -13,7 +13,7 @@ var jobCenter = function(job, firstName) {
             return firstName + 'Se uita la stele  in fie care seara';
             
             default:
-            return firstName + 'Fumeaza iarba toata ziua';
+            return firstName + 'Taie Frunze la caini';
         }
 
 }
